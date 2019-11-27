@@ -1,4 +1,3 @@
 # friendly-spoon
 
 :spoon:
-:spoon:
