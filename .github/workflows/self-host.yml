@@ -1,4 +1,4 @@
-name: Testing
+name: Self-hosted example
 
 on: [push, pull_request]
 
