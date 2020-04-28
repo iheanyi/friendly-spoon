@@ -1,17 +1,9 @@
 on: push
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    if: false       # always skip to prevent DDoSing ourselves!
     steps:
     - uses: actions/checkout@v2
-
-    - name: Run a one-line script
-      run: echo Hello, world!
-
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-# adding comment
+    - name: This should be skipped
+      run: echo "You've messed up."
