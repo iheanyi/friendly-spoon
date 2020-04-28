@@ -2,8 +2,7 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: false       # always skip to prevent DDoSing ourselves!
     steps:
-    - uses: actions/checkout@v2
-    - name: This should be skipped
+    - if: false       # always skip to prevent DDoSing ourselves!
+      name: This should be skipped
       run: echo "You've messed up."
