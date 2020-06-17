@@ -2,7 +2,7 @@ on:
   push:
   repository_dispatch:
   schedule:
-    - cron:  '*/30 * * * *'
+    - cron:  '0 0 * * 1'
 jobs:
   build:
     runs-on: ubuntu-latest
