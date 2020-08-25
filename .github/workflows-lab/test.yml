@@ -1,4 +1,4 @@
-name: Local changgeesssss
+name: Test
 
 on: [push, pull_request]
 
